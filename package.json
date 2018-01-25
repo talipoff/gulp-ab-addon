@@ -1,0 +1,28 @@
+{
+  "name": "gulp-ab-addon",
+  "version": "0.0.1",
+  "description": "gulp tasks maker",
+  "author": "Dmitry Talipov <talipoff@gmail.com> (http://github.com/talipoff)",
+  "license": "MIT",
+  "repository": "talipoff/gulp-ab-addon",
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "task",
+    "watch"
+  ],
+  "engines": {
+    "node": ">=5"
+  },
+  "scripts": {
+    "test-src": "xo --fix"
+  },
+  "main": "gulp-ab-addon.js",
+  "dependencies": {
+    "del": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp-ab-filter": "1.0.0",
+    "gulp-xo": "^0.16.1"
+  }
+}
