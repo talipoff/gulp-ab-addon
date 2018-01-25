@@ -3,7 +3,7 @@ const del = require('del');
 
 function makeTasks(project, gulp) {
 	function make(key, source) {
-		if (source === '') {
+		if (source === undefined) {
 			source = project.source[key];
 			if (source[0] !== '.') {
 				source = project.sourceDir + source;
